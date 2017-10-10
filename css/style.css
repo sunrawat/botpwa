@@ -3,18 +3,22 @@
 }
 
 .offlinebox{
-	position: fixed;
+    position: fixed;
     height: 100%;
-    display: none;
+    display: block !important;
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgb(243, 243, 243);
     z-index: 99999;
-    color: #c3c3c3;
-    margin-top: 51px;
-    font-size: 1.8em;
-    padding-top: 50%;
+    color: #000000;
+    margin-top: 52px;
+    font-size: 1.3em;
+    padding-top: 73%;
     font-family: "Roboto";
     text-align: center;
+    background-image: url('../215328-200.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 17%;
 }
 
 span.status.online:before{

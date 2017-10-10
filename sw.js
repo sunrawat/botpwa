@@ -8,6 +8,7 @@ var filesToCache = [
   'sdk/aws-sdk-2.41.0.min.js',
   'chat-background.jpg',
   'DMI_Logo.svg.png',
+  '215328-200.png'
 ];
 this.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
