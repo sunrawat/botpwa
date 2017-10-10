@@ -22,11 +22,11 @@ if ('serviceWorker' in navigator) {
 window.setInterval(function(){
 	if(navigator.onLine){
 		$('.offlinebox').hide();
-		$('span.status').removeClas('offline');
+		$('span.status').removeClass('offline');
 		$('span.status').text('online').addClass('online');
 	}else{
 		$('.offlinebox').show();
-		$('span.status').removeClas('online');
+		$('span.status').removeClass('online');
 		$('span.status').text('offline').addClass('offline');
 	}
 },1000)
