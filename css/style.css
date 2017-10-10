@@ -204,7 +204,6 @@ div::-webkit-scrollbar-thumb {
     font-size: 1.1em;
     line-height: 37px;
     padding-left: 13px;
-    opacity: 0.9;
     z-index: 9;  
 		}
 .logo{
