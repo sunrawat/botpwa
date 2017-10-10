@@ -1,9 +1,8 @@
-var cacheName = 'JiraBotv3';
+var cacheName = 'JiraBotv4';
 var filesToCache = [
   '/',
   '/index.html',
   '/css/style.css',
-  '/fonts/fonts.css',
   '/js/jquery.min.js',
   '/js/app.js',
   '/sdk/aws-sdk-2.41.0.min.js',
