@@ -1,13 +1,13 @@
 var cacheName = 'JiraBotv4';
 var filesToCache = [
   '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/jquery.min.js',
-  '/js/app.js',
-  '/sdk/aws-sdk-2.41.0.min.js',
-  '/chat-background.jpg',
-  '/DMI_Logo.svg.png',
+  'index.html',
+  'css/style.css',
+  'js/jquery.min.js',
+  'js/app.js',
+  'sdk/aws-sdk-2.41.0.min.js',
+  'chat-background.jpg',
+  'DMI_Logo.svg.png',
 ];
 this.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
