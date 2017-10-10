@@ -210,7 +210,7 @@ div::-webkit-scrollbar-thumb {
 .logo{
 
    position: absolute;
-        top: 6px;
+    top: 6px;
     left:  6px;
     cursor: pointer;
     width: 62px;
