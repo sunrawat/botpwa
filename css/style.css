@@ -1,0 +1,238 @@
+.box{
+    margin-right: 25px;
+}
+
+.offlinebox{
+	position: fixed;
+    height: 100%;
+    display: none;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99999;
+    color: #c3c3c3;
+    margin-top: 51px;
+    font-size: 1.8em;
+    padding-top: 50%;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+span.status.online:before{
+	     display: block;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #00ff13;
+    content: "";
+    opacity: 1;
+    bottom: 14px;
+    border-radius: 50%;
+    left: -12px;	
+}
+span.status.offline:before{
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #ff4d4d;
+    content: "";
+    opacity: 1;
+    bottom: 14px;
+    border-radius: 50%;
+    left: -12px;
+}
+.title {
+    display: block;
+    font-weight: 400;
+    padding: 14px 0 6px 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+}
+
+ul {
+    color: #666;
+    list-style:square;
+    padding: 0;
+    margin-left: 20px;
+}
+ul li {
+	word-break: break-all;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.orange { color: #F5876E; }
+
+.blue{ color: #61A8DC; }
+
+.green{ color: #8EBD40; }
+
+.purple { color: #988CC3; }
+
+.gold { color: #D8C86E; }
+
+
+
+	body{
+		font-family: "Roboto";
+		font-size: 1.2em;
+		height: 100%;
+		background: url(../chat-background.jpg);
+	}
+p{
+	    color: #000000;
+    font-weight: 300;
+}
+
+	div::-webkit-scrollbar {
+    width: 6px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+div::-webkit-scrollbar-thumb {
+        background-color: rgba(53, 206, 149,0.8);
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+#wisdom:focus , #wisdom:focus .main {
+	border:1px solid #46ce9a;
+}
+		input#wisdom {
+		outline: none;
+		font-size: 1em;
+		width: 95%;
+		border: 1px solid #fff;
+		padding-top	:10px;
+		padding-left: 8px; 
+		padding-bottom: 10px;
+		position: relative;
+		z-index: 999;
+		border-radius: 100px;
+		padding: 11px;
+		margin: 13px;
+		margin-left: 10px;
+		background: rgba(255, 255, 255, 0.9);
+		margin-top: -20px;
+		position: fixed;
+		bottom: 0;
+		}
+
+		input::placeholder {
+			color: #ccc;
+			font-style: italic;
+
+
+		}
+
+		p.userRequest {
+			display: inline-block;
+			position: relative;
+			word-break: break-all;
+			min-width: 45%;
+			padding: 0.8em;
+			line-height: 1em;
+			height: auto;    border-top-left-radius: 0px;
+    		box-shadow: -1px 2px 0px #D4D4D4;
+        background: white;
+        border-radius: 2px;
+        color: #000000;
+        margin-left: 10px;
+
+		}
+		p.userRequest:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 0px;
+    bottom: -10px;
+    border: 12px solid;
+    border-color: white  white transparent transparent;
+}
+
+		p.lexResponse {
+			margin: 4px;
+			margin-top: 20px;
+			margin-bottom:10px;
+			margin-right:  10px;
+			color: #2a1f3f;
+			padding: 10px 10px 15px 0px ;
+			padding-left: 20px;
+			border-radius: 4px;
+			min-width: 50%;
+			 border-top-left-radius: 0px;
+    		box-shadow: -1px 2px 0px #D4D4D4;
+			max-width: 85%;
+			float: right;
+			background-color: #f6f6f6;
+			position: relative;
+		}
+
+
+		p.lexResponse:after{
+			content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    left: -10px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 22px solid;
+    border-color: #f6f6f6 transparent transparent transparent;
+		}
+		p.lexError {
+			margin: 4px;
+			padding: 4px 10px 4px 10px;
+			border-radius: 4px;
+			min-width: 50%;
+			max-width: 85%;
+			float: right;
+			background-color: #f77;
+		}
+	.jHeader	{
+    background: rgb(53, 206, 149);
+    padding: 12px;
+    color: white;
+    font-size: 1.1em;
+    line-height: 37px;
+    padding-left: 13px;
+    opacity: 0.9;
+    z-index: 9;  
+		}
+.logo{
+
+   position: absolute;
+        top: 6px;
+    left:  6px;
+    cursor: pointer;
+    width: 62px;
+        background: rgba(53, 206, 149,0.8);
+    opacity: 0.7;
+    z-index: 9;
+}
+.jHeader{
+	height: 27px;
+    padding-left: 81px;
+}
+.jHeader .name, .status{
+	position: absolute;
+}
+.jHeader .name{
+	top: 2px;
+	font-size: 20px;
+	position: absolute;
+}
+.jHeader .status{
+	font-size: 10px;
+    position: absolute;
+    top: 17px;
+    left: 92px;
+}
