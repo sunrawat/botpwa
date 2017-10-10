@@ -1,4 +1,4 @@
-var cacheName = 'JiraBot-v4';
+var cacheName = 'JiraBot-v5';
 var filesToCache = [
   '/',
   '/index.html',
@@ -42,5 +42,5 @@ this.addEventListener('activate', function(e) {
       }));
     })
   );
-  return self.clients.claim();
+  return this.clients.claim();
 });
