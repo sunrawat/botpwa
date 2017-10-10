@@ -5,7 +5,6 @@
 .offlinebox{
     position: fixed;
     height: 100%;
-    display: block !important;
     width: 100%;
     background-color: rgb(243, 243, 243);
     z-index: 99999;
