@@ -1,6 +1,5 @@
-var cacheName = 'JiraBot-v5';
+var cacheName = 'JiraBot-v6';
 var filesToCache = [
-  '/',
   'index.html',
   'css/style.css',
   'fonts/fonts.css',
