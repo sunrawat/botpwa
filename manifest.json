@@ -1,7 +1,7 @@
 {
-  "name": "Progressive Web App: PhotoBooth",
-  "short_name": "PhotoBooth",
-  "description": "Simple Progressive Web App for taking selfies.",
+  "name": "JiraBot",
+  "short_name": "JiraBot",
+  "description": "JiraBot",
   "icons": [{
       "src": "assets/icons/ic-face.png",
       "type": "image/png",
@@ -13,7 +13,7 @@
     }],
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#d6dbde",
+  "theme_color": "#d6dbde",
   "orientation": "portrait"
 }
