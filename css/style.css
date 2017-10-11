@@ -8,17 +8,18 @@
     width: 100%;
     background-color: rgb(243, 243, 243);
     z-index: 99999;
+    display: none;
     color: #000000;
     margin-top: 52px;
     font-size: 1.3em;
     padding-top: 73%;
     font-family: "Roboto";
     text-align: center;
-    background-image: url('../215328-200.png');
+    background-image: url('../unavailable_cloud_filled1600.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 17%;
-    background-size: 100px 100px;
+    background-size: 50%;
 }
 
 span.status.online:before{

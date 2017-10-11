@@ -139,7 +139,7 @@
 					responsePara.appendChild(document.createElement('br'));
 			}
 			conversationDiv.appendChild(responsePara);
-			conversationDiv.scrollTop = conversationDiv.scrollHeight;
+			$('body').animate({ scrollTop: conversationDiv.scrollHeight})
 		}
 	</script>
 </div>
